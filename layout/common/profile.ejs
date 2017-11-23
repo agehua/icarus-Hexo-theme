@@ -54,6 +54,7 @@
           </div>
       </div>
     <% } %>
+
 </aside>
 
 <script type="text/javascript">
@@ -73,19 +74,16 @@ function scrollCheck(scrollTarget, toggleClass, scrollHeight){
     })
 }
 
-/*
-    博文页面
-*/
 (function(){
-    // if (isPages('data-ispost')){
-        // var navbar = document.querySelector('.navbar-custom');  0.769230769230769%
+      try {
         document.getElementById("toc-wrap").style.width= document.getElementById("profile-inner").offsetWidth+ "px";
         var introHeader = document.querySelector('.inner.profile-inner').offsetHeight;
         var toc = document.querySelector('.toc-wrap');
-        // var postTitle = document.querySelector('.post-title-haojen');
         scrollCheck(toc,'toc-fixed',introHeader+40+64);
-        // scrollCheck(navbar,'is-fixed');
-        // scrollCheck(postTitle,'post-title-fixed',introHeader-60);
-    // }
+      }catch(err){
+
+      }
+        // var node = document.querySelector('.profile-inner');
+        // scrollCheck(node,'profile-inner-fixed',64);
 })();
 </script>
