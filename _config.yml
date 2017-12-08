@@ -38,10 +38,11 @@ customize:
 widgets:
     - recent_posts
     - category
+    - tagcloud
     - archive
     - tag
-    - tagcloud
     - links
+
 
 # Search
 search:

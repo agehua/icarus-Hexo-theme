@@ -1,4 +1,5 @@
 <aside id="sidebar">
+    <!-- 在_config.yml中配置了widgets，来决定widgets的顺序 -->
    <% theme.widgets.forEach(function(widget) { %>
         <%- partial('widget/' + widget) %>
     <% }) %>
