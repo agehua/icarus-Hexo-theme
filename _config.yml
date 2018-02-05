@@ -18,7 +18,7 @@ customize:
         enabled: true # Whether to show profile bar
         avatar: http://7xuos6.com1.z0.glb.clouddn.com/profile.jpeg
         gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-        author: Cornor Lee
+        author: Conor Lee
         author_title: Android Developer & Web Enthusiast
         location: Beijing, China
         follow: https://github.com/agehua/
@@ -107,4 +107,4 @@ miscellaneous:
     links:
         Hexo: http://hexo.io
         ghost老司机的博客: http://www.bigademo.com
-        我的ghost博客: http://www.5come.cn
+        我的ghost博客: http://107.182.178.94/
